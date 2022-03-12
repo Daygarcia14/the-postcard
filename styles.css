@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: black;
+    box-sizing: border-box;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.postcard{
+    background-color: white;
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 55px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.description{
+    display: flex;
+    height: 150px;   
+}
+
+.left{
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.right{
+    font-size: 20px;
+    padding: 10px;
+}
+
+input {
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 1.5px solid grey;
+	border-left: 0px;
+    font-family: cursive;
+}
+
+button{
+    background-color: gainsboro;
+    padding: 5px;
+    font-family: cursive;
+}
+
+.sendmypostcard{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
